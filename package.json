@@ -1,5 +1,5 @@
 {
-  "name": "hsho-malakorapi",
+  "name": "hsho-privateserver",
   "version": "1.0.8",
   "description": "",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "malakor",
+  "author": "Kaiwaii4ever",
   "_moduleAliases": {
     "@src": "src",
     "@config": "src/config",
