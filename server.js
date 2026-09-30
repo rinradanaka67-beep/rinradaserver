@@ -1,95 +1,94 @@
+'use strict';
+
 require('module-alias/register');
 require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
-const config = require('@config/index');
-const routes = require('@routes/index');
+const config = require('@config');
+const routes = require('@routes');
 const Health = require('@src/Health');
 
 const app = express();
 
-app.use(express.json({ limit: '100mb' }));
-app.use(express.urlencoded({ limit: '100mb', extended: true }));
-
-// --- HSHO Log API Routes ---
-
-// 1. ตรวจสอบสถานะบทลงโทษ/แบนของผู้เล่น
-app.post('/logapi/v1/check/penalty', (req, res) => {
-    const gsid = req.body?.Player?.GSID || req.body?.GSID || req.body?.steamId || "";
-    
-    return res.status(200).json({
-        data: {
-            BanInSecond: 0,
-            count: 243,
-            GSID: gsid,
-            PenaltyLevel: 0,
-            UnbannedDateTime: "2026-09-27T15:37:20.557Z",
-            UnBannedIn: 0
-        },
-        hasUnBannedIn: 0,
-        message: "All transaction success",
-        status: 1
-    });
-});
-
-// 2. บันทึกประวัติการจับคู่/เข้าเล่นเกม
-app.post('/logapi/v1/add/matchlog', (req, res) => {
-    return res.status(200).json({
-        data: null,
-        error: null,
-        status: 1
-    });
-});
-
-// 3. ตรวจสอบสถานะเซิร์ฟเวอร์และผู้เล่นในระบบ
-app.post('/logapi/v1/check/serverdetect', (req, res) => {
-    const playerIds = req.body?.playerIds || [];
-    const gsid = playerIds.length > 0 ? playerIds[0] : "";
-
-    return res.status(200).json({
-        data: {
-            GSID: gsid
-        },
-        error: null,
-        status: 1
-    });
-});
-
-// --- Existing Routes & System Handlers ---
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ limit: '10mb', extended: true }));
 
 app.use('/', routes);
 app.use('/', Health);
 
+app.use((req, res) => {
+  res.status(404).json({
+    status: 0,
+    data: null,
+    error: 'Not found'
+  });
+});
+
+app.use((err, _req, res, _next) => {
+  res.status(500).json({
+    status: 0,
+    data: null,
+    error: 'Internal server error'
+  });
+});
+
+function printBanner() {
+  const text = 'A P I   B Y   M A L A K O R';
+  const width = text.length + 6;
+  const top = '+' + '-'.repeat(width) + '+';
+  const empty = '|' + ' '.repeat(width) + '|';
+  const pad = Math.floor((width - text.length) / 2);
+  const line = '|' + ' '.repeat(pad) + text + ' '.repeat(width - pad - text.length) + '|';
+
+  console.log('');
+  console.log(top);
+  console.log(empty);
+  console.log(line);
+  console.log(empty);
+  console.log(top);
+  console.log('');
+}
+
+let server;
+
 async function start() {
   try {
-    await mongoose.mongoose.connect(config.mongo.uri, {
-      dbName: config.mongo.dbName,
-    });
-    console.log(`MongoDB connected to: ${config.mongo.dbName}`);
+    printBanner();
 
-    app.listen(config.port, () => {
-      console.log(`Server running on port ${config.port}`);
-      console.log(`Environment: ${config.env}`);
+    await mongoose.connect(config.mongo.uri, {
+      dbName: config.mongo.dbName
+    });
+
+    server = app.listen(config.port, () => {
+      console.log(`[Server] Running on port ${config.port}`);
     });
   } catch (err) {
-    console.error('Startup error:', err.message);
     process.exit(1);
   }
 }
 
-async function shutdown() {
+async function shutdown(signal) {
   try {
+    if (server) {
+      await new Promise((resolve) => server.close(resolve));
+    }
+
     await mongoose.connection.close();
-    console.log('Shutdown complete');
+
     process.exit(0);
   } catch (err) {
-    console.error('Error during shutdown:', err.message);
     process.exit(1);
   }
 }
 
-process.on('SIGINT', shutdown);
-process.on('SIGTERM', shutdown);
+process.on('SIGINT', () => shutdown('SIGINT'));
+process.on('SIGTERM', () => shutdown('SIGTERM'));
+
+process.on('uncaughtException', (err) => {
+  shutdown('uncaughtException');
+});
+
+process.on('unhandledRejection', (reason) => {});
 
 start();
