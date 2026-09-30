@@ -1,0 +1,12 @@
+{
+  "status": 1,
+  "data": {
+    "banner_id": "greedy",
+    "name": "Greedy Gacha",
+    "start_at": "2024-01-01T00:00:00.000Z",
+    "end_at": "2099-12-31T23:59:59.000Z",
+    "cost": { "short_code": "coin", "amount": 100 },
+    "items": []
+  },
+  "error": null
+}
