@@ -5,9 +5,9 @@
     "lastNameUpdate": null,
     "updatedAt": null
   },
-  "coin": 5000,
-  "amethyst": 5000,
-  "amulet": 5000,
+  "coin": 00,
+  "amethyst": 00,
+  "amulet": 00,
   "characterSlot": {
     "hunterSlot": [
       {
