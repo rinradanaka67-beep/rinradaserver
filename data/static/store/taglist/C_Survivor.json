@@ -2,61 +2,7 @@
    "data":{
       "totalFoundTags":22,
       "bundles":[
-         {
-            "_id":"63185e433d1a7abb716d77d5",
-            "title":"Jean",
-            "description":"Let's fight ghost",
-            "shortCode":"Survivor_Jean",
-            "steamProductId":null,
-            "imageURL":"",
-            "tags":[
-               "character",
-               "survivor",
-               "default"
-            ],
-            "isActive":true,
-            "itemsInBundle":[
-               {
-                  "amount":1,
-                  "shortCode":"Survivor_Jean"
-               }
-            ],
-            "maxQuantityPerUser":1,
-            "priceTags":[
-               {
-                  "currencyType":1,
-                  "price":125000
-               }
-            ],
-            "discountPriceTags":[
-
-            ],
-            "listingPolicy":{
-               "type":1,
-               "startAt":"2022-08-03T05:32:20+07:00"
-            },
-            "discountPolicy":{
-
-            },
-            "createdAt":"2022-08-03T05:32:20+07:00",
-            "itemsInBundleWithData":[
-               {
-                  "_id":"63185e2903c94e418910a1be",
-                  "title":"Jean",
-                  "description":"Let's fight ghost",
-                  "shortCode":"Survivor_Jean",
-                  "tags":[
-                     "character",
-                     "survivor"
-                  ],
-                  "isActive":true,
-                  "thumbnailPath":"",
-                  "createdAt":"2022-07-04T11:56:04+00:00",
-                  "itemType":7
-               }
-            ]
-         },
-         {
+         {   
             "_id":"63185e433d1a7abb716d787a",
             "title":"Tim",
             "description":"Tim Survivor from Home Sweet Home",
