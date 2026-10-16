@@ -9,9 +9,6 @@ const routes = require('@routes/index');
 const Health = require('@src/Health');
 
 const app = express();
-app.use((req, res, next) => {
-    console.log(`[Incoming Request] Method: ${req.method}, Path: ${req.url}`);
-    next();
 app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
 
