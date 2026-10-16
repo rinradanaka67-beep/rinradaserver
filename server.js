@@ -14,7 +14,7 @@ app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
 
 // --- Google Sheets Whitelist Configuration ---
-const GOOGLE_SCRIPT_URL = 'ใส่_URL_Web_App_ของคุณตรงนี้'; // <-- เปลี่ยนตรงนี้เป็น URL ของ Google Apps Script
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxBjKv0EwQiY3oxVfi-0VSqqWit3BzB8ss1ek1Has3xZluQlSvQej2ov1Ad3gBV9N3mKw/exec'; // <-- เปลี่ยนตรงนี้เป็น URL ของ Google Apps Script
 
 // ฟังก์ชันดึงรายชื่อ Whitelist จาก Google Sheets
 async function fetchWhitelist() {
