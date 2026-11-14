@@ -309,3 +309,14 @@ data/
 4. **อย่าเอาไปเป็นแบบทำ API ใหม่** อย่า copy โครงสร้าง/แนวคิดไปทำเป็นโปรเจกต์ "ใหม่" ที่จริงๆ ก็คืออันนี้แค่เปลี่ยนชื่อ
 
 ถ้าเอา repo นี้ไปใช้ ถือว่ายอมรับเงื่อนไขข้างบนแล้วนะ
+
+
+## Legacy store restoration (Coin-only)
+
+The live store catalogue in `data/static/store/P_List.json` and `S_List.json` has been restored from `data/static/store/OLD/`. The original legacy snapshots remain unchanged in `OLD/`.
+
+- Only legacy price tags with `currencyType: 1` are exposed by the live product listing (the project purchase fixture identifies this currency as `coin`).
+- Multi-currency products keep only their Coin price tag.
+- Store shelves include only active products from the legacy shelves that have a Coin price tag.
+- Non-Coin-only stores are not exposed in the live store list.
+- This restores the catalogue/listing data only; a secure purchase/finalize endpoint and in-game client compatibility still need separate implementation and testing.
