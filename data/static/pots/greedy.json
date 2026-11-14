@@ -1,0 +1,5362 @@
+{
+  "data": {
+    "items": [
+      {
+        "short_code": "Back_Hun_00051",
+        "name": "Back Hun 00051",
+        "type": "back",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Hun_Magic00003B",
+        "name": "Back Hun Magic00003B",
+        "type": "back",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Hun_Magic00004",
+        "name": "Back Hun Magic00004",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Hun_Magic00056",
+        "name": "Back Hun Magic00056",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Hun_Skull00001",
+        "name": "Back Hun Skull00001",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00006",
+        "name": "Back Sur 00006",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00009",
+        "name": "Back Sur 00009",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00012",
+        "name": "Back Sur 00012",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00017",
+        "name": "Back Sur 00017",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00018",
+        "name": "Back Sur 00018",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00020B",
+        "name": "Back Sur 00020B",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00053",
+        "name": "Back Sur 00053",
+        "type": "back",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00054",
+        "name": "Back Sur 00054",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00056",
+        "name": "Back Sur 00056",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00060",
+        "name": "Back Sur 00060",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00063",
+        "name": "Back Sur 00063",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00065",
+        "name": "Back Sur 00065",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00068",
+        "name": "Back Sur 00068",
+        "type": "back",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00070",
+        "name": "Back Sur 00070",
+        "type": "back",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00081",
+        "name": "Back Sur 00081",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00085",
+        "name": "Back Sur 00085",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00087",
+        "name": "Back Sur 00087",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00091",
+        "name": "Back Sur 00091",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00097",
+        "name": "Back Sur 00097",
+        "type": "back",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00101",
+        "name": "Back Sur 00101",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00105",
+        "name": "Back Sur 00105",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_00112",
+        "name": "Back Sur 00112",
+        "type": "back",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_Bag00003",
+        "name": "Back Sur Bag00003",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_Bag00016A",
+        "name": "Back Sur Bag00016A",
+        "type": "back",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Back_Sur_Magic00003",
+        "name": "Back Sur Magic00003",
+        "type": "back",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Back_00020",
+        "name": "Belle Back 00020",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Back_00022",
+        "name": "Belle Back 00022",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Back_00026",
+        "name": "Belle Back 00026",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Cutter_00001",
+        "name": "Belle Cutter 00001",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Cutter_00004",
+        "name": "Belle Cutter 00004",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Head_000024",
+        "name": "Belle Head 000024",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Head_000025",
+        "name": "Belle Head 000025",
+        "type": "cosmetic",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Head_00023",
+        "name": "Belle Head 00023",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Belle_Head_00027",
+        "name": "Belle Head 00027",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Chan_Armband_00002",
+        "name": "Chan Armband 00002",
+        "type": "cosmetic",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Chan_Back_00001",
+        "name": "Chan Back 00001",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Charlotte_Pet_00006",
+        "name": "Charlotte Pet 00006",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Charlotte_Pet_00008",
+        "name": "Charlotte Pet 00008",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Charlotte_Pet_00012",
+        "name": "Charlotte Pet 00012",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "EnergyDrink_EnergyT",
+        "name": "EnergyDrink EnergyT",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "FX_Warden_Transform_00001",
+        "name": "FX Warden Transform 00001",
+        "type": "effect",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "FX_Warden_Transform_00002",
+        "name": "FX Warden Transform 00002",
+        "type": "effect",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "FX_Warden_Transform_00003",
+        "name": "FX Warden Transform 00003",
+        "type": "effect",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "FX_Warden_Transform_00004",
+        "name": "FX Warden Transform 00004",
+        "type": "effect",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "FX_Warden_Transform_00005",
+        "name": "FX Warden Transform 00005",
+        "type": "effect",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "FX_Warden_Transform_00006",
+        "name": "FX Warden Transform 00006",
+        "type": "effect",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "GrimFamily_Deer_00003",
+        "name": "GrimFamily Deer 00003",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "GrimFamily_Rabbit_00001",
+        "name": "GrimFamily Rabbit 00001",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "GrimFamily_Rabbit_00003",
+        "name": "GrimFamily Rabbit 00003",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "GrimFamily_Sheep_00005",
+        "name": "GrimFamily Sheep 00005",
+        "type": "cosmetic",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "HRK_KeyBoard_00002",
+        "name": "HRK KeyBoard 00002",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "HRK_Keyboard_00001",
+        "name": "HRK Keyboard 00001",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "HRK_Mic_00004",
+        "name": "HRK Mic 00004",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_00011",
+        "name": "Head Hun 00011",
+        "type": "head",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_00018",
+        "name": "Head Hun 00018",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_00020",
+        "name": "Head Hun 00020",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_00024",
+        "name": "Head Hun 00024",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_00026",
+        "name": "Head Hun 00026",
+        "type": "head",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_Magic00003",
+        "name": "Head Hun Magic00003",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_Magic00024",
+        "name": "Head Hun Magic00024",
+        "type": "head",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Hun_Mask00004",
+        "name": "Head Hun Mask00004",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00018",
+        "name": "Head Sur 00018",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00019",
+        "name": "Head Sur 00019",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00024",
+        "name": "Head Sur 00024",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00029",
+        "name": "Head Sur 00029",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00030",
+        "name": "Head Sur 00030",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00048",
+        "name": "Head Sur 00048",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00078",
+        "name": "Head Sur 00078",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00081",
+        "name": "Head Sur 00081",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00090",
+        "name": "Head Sur 00090",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00095",
+        "name": "Head Sur 00095",
+        "type": "head",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00099",
+        "name": "Head Sur 00099",
+        "type": "head",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00105",
+        "name": "Head Sur 00105",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00108",
+        "name": "Head Sur 00108",
+        "type": "head",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00137",
+        "name": "Head Sur 00137",
+        "type": "head",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00152",
+        "name": "Head Sur 00152",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00159",
+        "name": "Head Sur 00159",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00166",
+        "name": "Head Sur 00166",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00169",
+        "name": "Head Sur 00169",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00181",
+        "name": "Head Sur 00181",
+        "type": "head",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_00189",
+        "name": "Head Sur 00189",
+        "type": "head",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_Hat00001B",
+        "name": "Head Sur Hat00001B",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Head_Sur_Mask00051",
+        "name": "Head Sur Mask00051",
+        "type": "head",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "HolyRice_Halloween",
+        "name": "HolyRice Halloween",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "HolyRice_Komebukuro",
+        "name": "HolyRice Komebukuro",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "HolyWater_PaperShoot",
+        "name": "HolyWater PaperShoot",
+        "type": "cosmetic",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Holywater_Dipper",
+        "name": "Holywater Dipper",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Chan",
+        "name": "Hunter Chan",
+        "type": "character",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Charlotte",
+        "name": "Hunter Charlotte",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Garnet",
+        "name": "Hunter Garnet",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Hrk",
+        "name": "Hunter Hrk",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Pob",
+        "name": "Hunter Pob",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Pray",
+        "name": "Hunter Pray",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Prisoner",
+        "name": "Hunter Prisoner",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Ratri",
+        "name": "Hunter Ratri",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Rigger",
+        "name": "Hunter Rigger",
+        "type": "character",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Saming",
+        "name": "Hunter Saming",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Hunter_Verona",
+        "name": "Hunter Verona",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Chaplet_Songkran",
+        "name": "Item Chaplet Songkran",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Chaplet_ThunderBeads",
+        "name": "Item Chaplet ThunderBeads",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Chaplet_Undying",
+        "name": "Item Chaplet Undying",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_EnergyDrink_BubbleTea",
+        "name": "Item EnergyDrink BubbleTea",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_EnergyDrink_Potion",
+        "name": "Item EnergyDrink Potion",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_EnergyDrink_ThaiTea",
+        "name": "Item EnergyDrink ThaiTea",
+        "type": "cosmetic",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Rattan_Amethyst",
+        "name": "Item Rattan Amethyst",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Rattan_Christmas",
+        "name": "Item Rattan Christmas",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Rattan_RaskshasWill",
+        "name": "Item Rattan RaskshasWill",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Rattan_ThunderBlade",
+        "name": "Item Rattan ThunderBlade",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Ratten_BatteredUmbrella",
+        "name": "Item Ratten BatteredUmbrella",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_RitualAltar_EndlessAgony",
+        "name": "Item RitualAltar EndlessAgony",
+        "type": "ritual",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_RitualAltar_HellBurnt",
+        "name": "Item RitualAltar HellBurnt",
+        "type": "ritual",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_RitualAltar_Saming",
+        "name": "Item RitualAltar Saming",
+        "type": "ritual",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_RitualAltar_TheClub",
+        "name": "Item RitualAltar TheClub",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_RitualAltar_ThemePark",
+        "name": "Item RitualAltar ThemePark",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_RitualAltar_Vampire",
+        "name": "Item RitualAltar Vampire",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_EndlessAgony",
+        "name": "Item Sacrifice EndlessAgony",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_HellBurnt",
+        "name": "Item Sacrifice HellBurnt",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_Saming",
+        "name": "Item Sacrifice Saming",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_SpaceDroid",
+        "name": "Item Sacrifice SpaceDroid",
+        "type": "ritual",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_TheClub",
+        "name": "Item Sacrifice TheClub",
+        "type": "ritual",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_ThemePark",
+        "name": "Item Sacrifice ThemePark",
+        "type": "ritual",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Sacrifice_Vampire",
+        "name": "Item Sacrifice Vampire",
+        "type": "ritual",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_ScrollBlackViper",
+        "name": "Item ScrollBlackViper",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Scroll_RunningTiger",
+        "name": "Item Scroll RunningTiger",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Item_Scroll_Tarot",
+        "name": "Item Scroll Tarot",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Kamiko_Back_00002",
+        "name": "Kamiko Back 00002",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Nylcan_Collar_00002",
+        "name": "Nylcan Collar 00002",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Nymph_Anklets_00002",
+        "name": "Nymph Anklets 00002",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Nymph_Bracelet_00003",
+        "name": "Nymph Bracelet 00003",
+        "type": "cosmetic",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Nymph_Head_00009",
+        "name": "Nymph Head 00009",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_AutoGuard",
+        "name": "PP Hunter AutoGuard",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_DarkOccult",
+        "name": "PP Hunter DarkOccult",
+        "type": "perk",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_DecreaseRitualProgress",
+        "name": "PP Hunter DecreaseRitualProgress",
+        "type": "perk",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_DevilIntervention",
+        "name": "PP Hunter DevilIntervention",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_FallDetector",
+        "name": "PP Hunter FallDetector",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_Helmet",
+        "name": "PP Hunter Helmet",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_HunterInstinct",
+        "name": "PP Hunter HunterInstinct",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_Insolence",
+        "name": "PP Hunter Insolence",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_JumpScare",
+        "name": "PP Hunter JumpScare",
+        "type": "perk",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_Phasing",
+        "name": "PP Hunter Phasing",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_Poltergeist",
+        "name": "PP Hunter Poltergeist",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_PrayerDetector",
+        "name": "PP Hunter PrayerDetector",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_ShellBarrier",
+        "name": "PP Hunter ShellBarrier",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_SpecialReceptor",
+        "name": "PP Hunter SpecialReceptor",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Hunter_Stockpile",
+        "name": "PP Hunter Stockpile",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_Adrenaline",
+        "name": "PP Survivor Adrenaline",
+        "type": "perk",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_Dodge",
+        "name": "PP Survivor Dodge",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_Focus",
+        "name": "PP Survivor Focus",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_HalfSpell",
+        "name": "PP Survivor HalfSpell",
+        "type": "perk",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_HandsOfGreed",
+        "name": "PP Survivor HandsOfGreed",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_HealYourselfWhenReviveFriends",
+        "name": "PP Survivor HealYourselfWhenReviveFriends",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_IronGrip",
+        "name": "PP Survivor IronGrip",
+        "type": "perk",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_ItemScan",
+        "name": "PP Survivor ItemScan",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_QuickHeal",
+        "name": "PP Survivor QuickHeal",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_SacredString",
+        "name": "PP Survivor SacredString",
+        "type": "perk",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_SharpEye",
+        "name": "PP Survivor SharpEye",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_SoulSprint",
+        "name": "PP Survivor SoulSprint",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_Sturdy",
+        "name": "PP Survivor Sturdy",
+        "type": "perk",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_Take_A_Rest",
+        "name": "PP Survivor Take A Rest",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "PP_Survivor_ThreadExpert",
+        "name": "PP Survivor ThreadExpert",
+        "type": "perk",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Aof_00001",
+        "name": "Pose Aof 00001",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Belle_00001",
+        "name": "Pose Belle 00001",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Don_Default",
+        "name": "Pose Don Default",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_GrannyKham_00001",
+        "name": "Pose GrannyKham 00001",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_GrannyKham_00002",
+        "name": "Pose GrannyKham 00002",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_GrimFamily_00003",
+        "name": "Pose GrimFamily 00003",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Jane_00001",
+        "name": "Pose Jane 00001",
+        "type": "pose",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Jane_00002",
+        "name": "Pose Jane 00002",
+        "type": "pose",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_JapanTouristF_00003",
+        "name": "Pose JapanTouristF 00003",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Kamiko_00001",
+        "name": "Pose Kamiko 00001",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Kamiko_00002",
+        "name": "Pose Kamiko 00002",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Kamiko_Default",
+        "name": "Pose Kamiko Default",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Manop_00003",
+        "name": "Pose Manop 00003",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Pang3P_00002",
+        "name": "Pose Pang3P 00002",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Pray_00001",
+        "name": "Pose Pray 00001",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Pray_Default",
+        "name": "Pose Pray Default",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Prisoner_00001",
+        "name": "Pose Prisoner 00001",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Ratri_00002",
+        "name": "Pose Ratri 00002",
+        "type": "pose",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Ratri_Default",
+        "name": "Pose Ratri Default",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Security_00003",
+        "name": "Pose Security 00003",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Stephen_00003",
+        "name": "Pose Stephen 00003",
+        "type": "pose",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_StudentF_00002",
+        "name": "Pose StudentF 00002",
+        "type": "pose",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Tida_00001",
+        "name": "Pose Tida 00001",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Tim_00002",
+        "name": "Pose Tim 00002",
+        "type": "pose",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Vanz_00003",
+        "name": "Pose Vanz 00003",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Vanz_Default",
+        "name": "Pose Vanz Default",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Verona_00001",
+        "name": "Pose Verona 00001",
+        "type": "pose",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_ZBing_00001",
+        "name": "Pose ZBing 00001",
+        "type": "pose",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_ZBing_Default",
+        "name": "Pose ZBing Default",
+        "type": "pose",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Pose_Zico_00003",
+        "name": "Pose Zico 00003",
+        "type": "pose",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_CuteComic_Aof",
+        "name": "Profile CuteComic Aof",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_CuteComic_NaPae",
+        "name": "Profile CuteComic NaPae",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_CuteComic_Sheep",
+        "name": "Profile CuteComic Sheep",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_CuteComic_TimAwake",
+        "name": "Profile CuteComic TimAwake",
+        "type": "profile",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_CuteComic_Tim_Darkfantasy",
+        "name": "Profile CuteComic Tim Darkfantasy",
+        "type": "profile",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Flat2D_Nymph",
+        "name": "Profile Flat2D Nymph",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Flat2D_Prisoner",
+        "name": "Profile Flat2D Prisoner",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Flat2D_Ratri",
+        "name": "Profile Flat2D Ratri",
+        "type": "profile",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_HeroFunFun_08",
+        "name": "Profile HeroFunFun 08",
+        "type": "profile",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_HeroFunFun_09",
+        "name": "Profile HeroFunFun 09",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Neon_Tim",
+        "name": "Profile Neon Tim",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Neon_TouristJap",
+        "name": "Profile Neon TouristJap",
+        "type": "profile",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Novel_HRK",
+        "name": "Profile Novel HRK",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Novel_Pae",
+        "name": "Profile Novel Pae",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_OldComic_Prisoner",
+        "name": "Profile OldComic Prisoner",
+        "type": "profile",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_OldComic_Student",
+        "name": "Profile OldComic Student",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_OldComic_Vanz",
+        "name": "Profile OldComic Vanz",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Rank_Visitor_Gold_SS4",
+        "name": "Profile Rank Visitor Gold SS4",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Rank_Visitor_Red",
+        "name": "Profile Rank Visitor Red",
+        "type": "profile",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Rank_Visitor_Red_SS5",
+        "name": "Profile Rank Visitor Red SS5",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Rank_Visitor_Silver_SS3",
+        "name": "Profile Rank Visitor Silver SS3",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Rank_Warden_Silver_SS5",
+        "name": "Profile Rank Warden Silver SS5",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Realistic_BlackGhost",
+        "name": "Profile Realistic BlackGhost",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Realistic_Nymph",
+        "name": "Profile Realistic Nymph",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Realistic_Tim",
+        "name": "Profile Realistic Tim",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_SideComics_MewMew",
+        "name": "Profile SideComics MewMew",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Street_Belle",
+        "name": "Profile Street Belle",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Street_Jane",
+        "name": "Profile Street Jane",
+        "type": "profile",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Street_Student",
+        "name": "Profile Street Student",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Profile_Street_Vanz",
+        "name": "Profile Street Vanz",
+        "type": "profile",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Ratri_Anklets_00002",
+        "name": "Ratri Anklets 00002",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Ritual_Ghost_00002",
+        "name": "Ritual Ghost 00002",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Ritual_Stand_00001",
+        "name": "Ritual Stand 00001",
+        "type": "ritual",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Ritual_Stand_00002",
+        "name": "Ritual Stand 00002",
+        "type": "ritual",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "SacredThread_Halloween",
+        "name": "SacredThread Halloween",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aisha_Maid",
+        "name": "Skin Aisha Maid",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aisha_MilkyGalaxy",
+        "name": "Skin Aisha MilkyGalaxy",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_AofBoy",
+        "name": "Skin Aof AofBoy",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_JollyReindeer",
+        "name": "Skin Aof JollyReindeer",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_NiceGodOverAof",
+        "name": "Skin Aof NiceGodOverAof",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_RippedJeansOvershirt",
+        "name": "Skin Aof RippedJeansOvershirt",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_SpookyVillainousVampire",
+        "name": "Skin Aof SpookyVillainousVampire",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_TubularCroc",
+        "name": "Skin Aof TubularCroc",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Aof_WinteryCurrants",
+        "name": "Skin Aof WinteryCurrants",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_BluePlaidPhantom",
+        "name": "Skin Belle BluePlaidPhantom",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_GetSwolePilates",
+        "name": "Skin Belle GetSwolePilates",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_GwisininPink",
+        "name": "Skin Belle GwisininPink",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_MustardPhantom",
+        "name": "Skin Belle MustardPhantom",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_PichalPeri",
+        "name": "Skin Belle PichalPeri",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_StripedCreamPhantom",
+        "name": "Skin Belle StripedCreamPhantom",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_WomenDarkness",
+        "name": "Skin Belle WomenDarkness",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Belle_YankeeGirl",
+        "name": "Skin Belle YankeeGirl",
+        "type": "skin",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Chan_ImmortalB",
+        "name": "Skin Chan ImmortalB",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Chan_ThaiArmor",
+        "name": "Skin Chan ThaiArmor",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Chan_Yellow",
+        "name": "Skin Chan Yellow",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Charlotte_CardHoodie",
+        "name": "Skin Charlotte CardHoodie",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Don_CasualAtHomeGamer",
+        "name": "Skin Don CasualAtHomeGamer",
+        "type": "skin",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Don_GentleGroom",
+        "name": "Skin Don GentleGroom",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Don_KnightGuy",
+        "name": "Skin Don KnightGuy",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Don_TurquoiseButtonUp",
+        "name": "Skin Don TurquoiseButtonUp",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Garnet_AllforAnarchy",
+        "name": "Skin Garnet AllforAnarchy",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Garnet_Burnt",
+        "name": "Skin Garnet Burnt",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Garnet_Flamester",
+        "name": "Skin Garnet Flamester",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Garnet_HumanSkin",
+        "name": "Skin Garnet HumanSkin",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Garnet_MadScientist",
+        "name": "Skin Garnet MadScientist",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_GrannyKham_Hag",
+        "name": "Skin GrannyKham Hag",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_GrimFamily_GrimRangers",
+        "name": "Skin GrimFamily GrimRangers",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_HRK_Dracula",
+        "name": "Skin HRK Dracula",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jane_HSHLandJane",
+        "name": "Skin Jane HSHLandJane",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jane_PurpleTankTop",
+        "name": "Skin Jane PurpleTankTop",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jane_VogueBride",
+        "name": "Skin Jane VogueBride",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jane_WhiteSchoolGirl",
+        "name": "Skin Jane WhiteSchoolGirl",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jean_D_Default",
+        "name": "Skin Jean D Default",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jessi_Jessi_Tournament2023",
+        "name": "Skin Jessi Jessi Tournament2023",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jessi_Metal",
+        "name": "Skin Jessi Metal",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Jessi_SexySanty",
+        "name": "Skin Jessi SexySanty",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Kamiko_Darkmiko",
+        "name": "Skin Kamiko Darkmiko",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Kamiko_Samurai",
+        "name": "Skin Kamiko Samurai",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Manop_BoyScout",
+        "name": "Skin Manop BoyScout",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Manop_Kind",
+        "name": "Skin Manop Kind",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Manop_WoodyT",
+        "name": "Skin Manop WoodyT",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Mewmew_SexyCardio",
+        "name": "Skin Mewmew SexyCardio",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nylcan_Grandma",
+        "name": "Skin Nylcan Grandma",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nylcan_LightningStruckNylcan",
+        "name": "Skin Nylcan LightningStruckNylcan",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nymph_AuratusElCope",
+        "name": "Skin Nymph AuratusElCope",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nymph_FearsomeTribeGhost",
+        "name": "Skin Nymph FearsomeTribeGhost",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nymph_JonesLocker",
+        "name": "Skin Nymph JonesLocker",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nymph_OrangePoisonDart",
+        "name": "Skin Nymph OrangePoisonDart",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Nymph_RedNymph",
+        "name": "Skin Nymph RedNymph",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_P3P_AirSky",
+        "name": "Skin P3P AirSky",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_P3P_Blueberry",
+        "name": "Skin P3P Blueberry",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_P3P_DaringDesires",
+        "name": "Skin P3P DaringDesires",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_P3P_SexyCardio",
+        "name": "Skin P3P SexyCardio",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_P3P_SexyGlam",
+        "name": "Skin P3P SexyGlam",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_P3P_SweetCandyCosplay",
+        "name": "Skin P3P SweetCandyCosplay",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Prisoner_BlueBaseballJacket",
+        "name": "Skin Prisoner BlueBaseballJacket",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Prisoner_D_Default",
+        "name": "Skin Prisoner D Default",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Prisoner_Daeva",
+        "name": "Skin Prisoner Daeva",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Prisoner_PeridotRiverSpirit",
+        "name": "Skin Prisoner PeridotRiverSpirit",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Prisoner_S_Teddy",
+        "name": "Skin Prisoner S Teddy",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Ratri_D_Default",
+        "name": "Skin Ratri D Default",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Ratri_Sodalite",
+        "name": "Skin Ratri Sodalite",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Rigger_LoveMom",
+        "name": "Skin Rigger LoveMom",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Rigger_WinterScent",
+        "name": "Skin Rigger WinterScent",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Saming_D_Default",
+        "name": "Skin Saming D Default",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Saming_Indigo",
+        "name": "Skin Saming Indigo",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Saming_MalteseT",
+        "name": "Skin Saming MalteseT",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Saming_RTiger",
+        "name": "Skin Saming RTiger",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_SeGuard_2021TournamentPae",
+        "name": "Skin SeGuard 2021TournamentPae",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_SeGuard_BlackEagle",
+        "name": "Skin SeGuard BlackEagle",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_SeGuard_ToyTrooper",
+        "name": "Skin SeGuard ToyTrooper",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_SeGuard_Turquoise",
+        "name": "Skin SeGuard Turquoise",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_SeGuard_VillageWatch",
+        "name": "Skin SeGuard VillageWatch",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_SeGuard_WinteryChocolate",
+        "name": "Skin SeGuard WinteryChocolate",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Student_CuteScout",
+        "name": "Skin Student CuteScout",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Student_JapaneseUniform",
+        "name": "Skin Student JapaneseUniform",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Student_MilkyMatcha",
+        "name": "Skin Student MilkyMatcha",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Student_MysticAbbess",
+        "name": "Skin Student MysticAbbess",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Student_TinyJean",
+        "name": "Skin Student TinyJean",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Student_WuxiaApprentice",
+        "name": "Skin Student WuxiaApprentice",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tida_ScarletM",
+        "name": "Skin Tida ScarletM",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tida_TeenQueen",
+        "name": "Skin Tida TeenQueen",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_ChineseGolden",
+        "name": "Skin Tim ChineseGolden",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_ClassyGroom",
+        "name": "Skin Tim ClassyGroom",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_DiscoFever",
+        "name": "Skin Tim DiscoFever",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_HomeRangerRed",
+        "name": "Skin Tim HomeRangerRed",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_MadScientist",
+        "name": "Skin Tim MadScientist",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_NiceGodOverTim",
+        "name": "Skin Tim NiceGodOverTim",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_RedScotchShirt",
+        "name": "Skin Tim RedScotchShirt",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_SpookyAlienAbductee",
+        "name": "Skin Tim SpookyAlienAbductee",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Tim_TAT",
+        "name": "Skin Tim TAT",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_BubblegumCottoncandy",
+        "name": "Skin TouristJap BubblegumCottoncandy",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_Camelian",
+        "name": "Skin TouristJap Camelian",
+        "type": "skin",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_ChocoCherryBlouse",
+        "name": "Skin TouristJap ChocoCherryBlouse",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_HomeRangerPink",
+        "name": "Skin TouristJap HomeRangerPink",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_JK",
+        "name": "Skin TouristJap JK",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_PinkLemonade",
+        "name": "Skin TouristJap PinkLemonade",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_ThaiStudent",
+        "name": "Skin TouristJap ThaiStudent",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_TouristJap_WinteryCranberry",
+        "name": "Skin TouristJap WinteryCranberry",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Vanz_BlueStarShorts",
+        "name": "Skin Vanz BlueStarShorts",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Vanz_CyberByte",
+        "name": "Skin Vanz CyberByte",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Vanz_HSHLandOng",
+        "name": "Skin Vanz HSHLandOng",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Vanz_SlickGroom",
+        "name": "Skin Vanz SlickGroom",
+        "type": "skin",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Vanz_Student",
+        "name": "Skin Vanz Student",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Vanz_USAShorts",
+        "name": "Skin Vanz USAShorts",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Verona_GeneralVampire",
+        "name": "Skin Verona GeneralVampire",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Verona_WildRose",
+        "name": "Skin Verona WildRose",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Yuri_KitsuneHoodie",
+        "name": "Skin Yuri KitsuneHoodie",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_ZbingZ_BrassworkIntelligencer",
+        "name": "Skin ZbingZ BrassworkIntelligencer",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_ZbingZ_DiveDeepSwimsuit",
+        "name": "Skin ZbingZ DiveDeepSwimsuit",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_ZbingZ_MerryHillTribeswoman",
+        "name": "Skin ZbingZ MerryHillTribeswoman",
+        "type": "skin",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_ZbingZ_OrangeCatHoodie",
+        "name": "Skin ZbingZ OrangeCatHoodie",
+        "type": "skin",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_ZbingZ_ZombieCatJacket",
+        "name": "Skin ZbingZ ZombieCatJacket",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Zbingz_HomeRangerPurple",
+        "name": "Skin Zbingz HomeRangerPurple",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Skin_Zico_KarateRyu",
+        "name": "Skin Zico KarateRyu",
+        "type": "skin",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Cartoon_Bell_Help",
+        "name": "Sticker Cartoon Bell Help",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Cartoon_HandSymbol_3",
+        "name": "Sticker Cartoon HandSymbol 3",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Cartoon_HandSymbol_4",
+        "name": "Sticker Cartoon HandSymbol 4",
+        "type": "sticker",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Cartoon_Jane_Ok",
+        "name": "Sticker Cartoon Jane Ok",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Default_HelpMe",
+        "name": "Sticker Default HelpMe",
+        "type": "sticker",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Student_Help",
+        "name": "Sticker Flat2D Student Help",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Text_Help",
+        "name": "Sticker Flat2D Text Help",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Text_MeDecoy",
+        "name": "Sticker Flat2D Text MeDecoy",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Text_Run",
+        "name": "Sticker Flat2D Text Run",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Tim_GotKeyItem",
+        "name": "Sticker Flat2D Tim GotKeyItem",
+        "type": "sticker",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Tim_No",
+        "name": "Sticker Flat2D Tim No",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_Tim_Ok",
+        "name": "Sticker Flat2D Tim Ok",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2D_TouristJap_MeDecoy",
+        "name": "Sticker Flat2D TouristJap MeDecoy",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Flat2d_Yuri_Okay",
+        "name": "Sticker Flat2d Yuri Okay",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_HSHOxCTM_GotKetItem",
+        "name": "Sticker HSHOxCTM GotKetItem",
+        "type": "sticker",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_HSHOxCTM_Nipa_GotKeyItem",
+        "name": "Sticker HSHOxCTM Nipa GotKeyItem",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_Jane_CoverMe",
+        "name": "Sticker Neon Jane CoverMe",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_SeGuard_Help",
+        "name": "Sticker Neon SeGuard Help",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_SeGuard_No",
+        "name": "Sticker Neon SeGuard No",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_Student_CoverMe",
+        "name": "Sticker Neon Student CoverMe",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_Text_CoverMe",
+        "name": "Sticker Neon Text CoverMe",
+        "type": "sticker",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_Tim_No",
+        "name": "Sticker Neon Tim No",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_TouristJap_MeDecoy",
+        "name": "Sticker Neon TouristJap MeDecoy",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Neon_TouristJap_Ok",
+        "name": "Sticker Neon TouristJap Ok",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_OldComic_Jane_Help",
+        "name": "Sticker OldComic Jane Help",
+        "type": "sticker",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_OldComic_SeGuard_Ok",
+        "name": "Sticker OldComic SeGuard Ok",
+        "type": "sticker",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_OldComic_Vanz_CoverMe",
+        "name": "Sticker OldComic Vanz CoverMe",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_SD_Jane_MeDecoy",
+        "name": "Sticker SD Jane MeDecoy",
+        "type": "sticker",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_SD_SeGuard_Fight",
+        "name": "Sticker SD SeGuard Fight",
+        "type": "sticker",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_SD_SeGuard_Ok",
+        "name": "Sticker SD SeGuard Ok",
+        "type": "sticker",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_SD_Text_Help",
+        "name": "Sticker SD Text Help",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_SD_Tim_Fight",
+        "name": "Sticker SD Tim Fight",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_SD_Vanz_Help",
+        "name": "Sticker SD Vanz Help",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Street_Aof_GotKeyItem",
+        "name": "Sticker Street Aof GotKeyItem",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Street_HYPWynn_Fight",
+        "name": "Sticker Street HYPWynn Fight",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Street_Text_No",
+        "name": "Sticker Street Text No",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Street_Tim_Ok",
+        "name": "Sticker Street Tim Ok",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Street_TouristJap_GotKeyItem",
+        "name": "Sticker Street TouristJap GotKeyItem",
+        "type": "sticker",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Sticker_Valentine_08",
+        "name": "Sticker Valentine 08",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Stickers_Horror_Text_No",
+        "name": "Stickers Horror Text No",
+        "type": "sticker",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Aisha",
+        "name": "Survivor Aisha",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Aof",
+        "name": "Survivor Aof",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Fighter",
+        "name": "Survivor Fighter",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Jane",
+        "name": "Survivor Jane",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_JapanTouristF",
+        "name": "Survivor JapanTouristF",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Jessi",
+        "name": "Survivor Jessi",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Jessie",
+        "name": "Survivor Jessie",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Mechanic",
+        "name": "Survivor Mechanic",
+        "type": "character",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Sciencetist",
+        "name": "Survivor Sciencetist",
+        "type": "character",
+        "rarity": "4",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Security",
+        "name": "Survivor Security",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Soldier",
+        "name": "Survivor Soldier",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Stephen",
+        "name": "Survivor Stephen",
+        "type": "character",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_StudentF",
+        "name": "Survivor StudentF",
+        "type": "character",
+        "rarity": "5",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Tida",
+        "name": "Survivor Tida",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Tim",
+        "name": "Survivor Tim",
+        "type": "character",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_TimAwake",
+        "name": "Survivor TimAwake",
+        "type": "character",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_Vanz",
+        "name": "Survivor Vanz",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Survivor_ZBing",
+        "name": "Survivor ZBing",
+        "type": "character",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "Syringe_00001",
+        "name": "Syringe 00001",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "TheRigger_Puppet_00010",
+        "name": "TheRigger Puppet 00010",
+        "type": "cosmetic",
+        "rarity": "2",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "TheRigger_Puppet_00013",
+        "name": "TheRigger Puppet 00013",
+        "type": "cosmetic",
+        "rarity": "3",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      },
+      {
+        "short_code": "TheRigger_Scissors_00011",
+        "name": "TheRigger Scissors 00011",
+        "type": "cosmetic",
+        "rarity": "1",
+        "amount": 1,
+        "duplicate_exchange": {
+          "enable": true,
+          "short_code": "coin",
+          "amount": 25,
+          "type": "currency"
+        }
+      }
+    ]
+  }
+}
