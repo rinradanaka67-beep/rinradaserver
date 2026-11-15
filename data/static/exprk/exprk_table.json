@@ -1,0 +1,13 @@
+{
+  "status": 1,
+  "data": {
+    "table": [
+      { "rank": 1, "min_exp": 0,     "max_exp": 999 },
+      { "rank": 2, "min_exp": 1000,  "max_exp": 2999 },
+      { "rank": 3, "min_exp": 3000,  "max_exp": 5999 },
+      { "rank": 4, "min_exp": 6000,  "max_exp": 9999 },
+      { "rank": 5, "min_exp": 10000, "max_exp": null }
+    ]
+  },
+  "error": null
+}
