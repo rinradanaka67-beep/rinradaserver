@@ -1,5 +1,6 @@
 'use strict';
 
+const config     = require('@config');
 const Player     = require('@models/player.model');
 const staticJson = require('@utils/static-json.util');
 
@@ -41,6 +42,9 @@ const DEFAULT_SKINS = Object.freeze({
 });
 
 const DEFAULT_CURRENCIES = Object.freeze({ coin: 20_000, amethyst: 20_000, amulet: 20_000 });
+
+// Shortcode of the GM profile picture. Must match the item name the game client knows.
+const GM_PROFILE_ID = process.env.GM_PROFILE_ID || 'Profile_GM';
 
 const NAME_COOLDOWN_MS = 12 * 60 * 60 * 1_000;
 
@@ -135,10 +139,32 @@ class PlayerDataService {
     return player;
   }
 
+  // Accounts listed in DEVELOPERS (comma-separated Steam IDs in .env) get the GM profile.
+  async _ensureDeveloperPerks(player) {
+    const developers = config.developers ?? [];
+    if (!developers.includes(player.steamId)) return player;
+
+    const inventory = player.inventory ?? (player.inventory = {});
+    inventory.profiles = Array.isArray(inventory.profiles) ? inventory.profiles : [];
+    inventory.devAccount = true;
+
+    if (!inventory.profiles.includes(GM_PROFILE_ID)) {
+      inventory.profiles.push(GM_PROFILE_ID);
+      // Equip it the first time it is granted; the player can change it afterwards.
+      player.profile.display   = GM_PROFILE_ID;
+      player.profile.updatedAt = new Date();
+      player.markModified('profile');
+    }
+    player.markModified('inventory');
+    await player.save();
+    return player;
+  }
+
   async getOrCreatePlayerData(steamId, steamName) {
     const existing = await Player.findOne({ steamId });
     if (existing) {
       await this._ensureProgressionSaved(existing);
+      await this._ensureDeveloperPerks(existing);
       return this._syncDisplayName(existing, steamName);
     }
 
@@ -170,6 +196,7 @@ class PlayerDataService {
 
     await player.save();
     await this._ensureProgressionSaved(player);
+    await this._ensureDeveloperPerks(player);
     return player;
   }
 
