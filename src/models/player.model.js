@@ -64,6 +64,11 @@ const playerSchema = new mongoose.Schema(
     playerRecordHunter: { type: mongoose.Schema.Types.Mixed, default: undefined },
     playerRecordSurvivor: { type: mongoose.Schema.Types.Mixed, default: undefined },
     curseRelic: { type: mongoose.Schema.Types.Mixed, default: undefined },
+    // Progression returned by /authen (level/exp/MMR/rank). Previously these were
+    // read from static auth.json on every login, so they never persisted.
+    playerStat: { type: mongoose.Schema.Types.Mixed, default: undefined },
+    rankData: { type: mongoose.Schema.Types.Mixed, default: undefined },
+    returnPlayerStatus: { type: mongoose.Schema.Types.Mixed, default: undefined },
     treasureProgress: {
       type: mongoose.Schema.Types.Mixed,
       default: () => ({ current_step: 0, completed: false, claimed_rewards: [] }),
