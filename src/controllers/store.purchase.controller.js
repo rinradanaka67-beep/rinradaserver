@@ -7,6 +7,22 @@ const { sendError, sendSuccess } = require('@utils/response.util');
 
 const CURRENCY_FIELDS = Object.freeze({ 1: 'coin', 2: 'amethyst', 4: 'amulet' });
 
+// Bundle entries that are really currency or pot counters, not inventory items.
+const CURRENCY_ITEMS = Object.freeze({ coin: 'coin', amethyst: 'amethyst', amulet: 'amulet' });
+const POT_ITEMS = Object.freeze({ default_gacha: 'lootBoxAmount', bullet_gacha: 'bulletAmount' });
+
+// The catalog lists a discount price next to the normal one. Charge what the shop shows:
+// use the discount tag (same currency) while the discount window is open.
+function resolvePriceTag(listing, priceIndex, now = new Date()) {
+  const base = listing.priceTags?.[priceIndex];
+  const discounts = Array.isArray(listing.discountPriceTags) ? listing.discountPriceTags : [];
+  if (!base || discounts.length === 0) return base;
+  const start = listing.discountPolicy?.startAt ? new Date(listing.discountPolicy.startAt) : null;
+  const end = listing.discountPolicy?.endAt ? new Date(listing.discountPolicy.endAt) : null;
+  if ((start && start > now) || (end && end < now)) return base;
+  return discounts.find((tag) => Number(tag?.currencyType) === Number(base.currencyType)) ?? base;
+}
+
 function getListingId(body = {}) {
   return body.productListingId || body.productListingID || body.product_listing_id || body.productId || body.product_id || body._id || body.id;
 }
@@ -33,7 +49,7 @@ exports.purchase = async (req, res) => {
     if (Number.isInteger(listing.maxQuantityPerUser) && listing.maxQuantityPerUser > 0 && quantity > listing.maxQuantityPerUser) {
       return sendError(res, 400, `Maximum quantity per purchase is ${listing.maxQuantityPerUser}`);
     }
-    const priceTag = listing.priceTags?.[priceIndex];
+    const priceTag = resolvePriceTag(listing, priceIndex);
     const currencyField = CURRENCY_FIELDS[Number(priceTag?.currencyType)];
     const unitPrice = Number(priceTag?.price);
     if (!currencyField || !Number.isSafeInteger(unitPrice) || unitPrice < 0) {
@@ -44,6 +60,14 @@ exports.purchase = async (req, res) => {
     }
     if (listing.itemsInBundle.some((entry) => String(entry?.shortCode || '').startsWith('Relic_')) &&
         Array.isArray(req.player.curseRelic) && listing.itemsInBundle.some((entry) => req.player.curseRelic.some((r) => r.ShortCode === entry.shortCode))) {
+      return res.status(409).json({ status: 0, data: null, error: 'Item already owned' });
+    }
+    // Do not charge again for a bundle made only of permanent items the player already owns.
+    const isPermanent = (id) => typeof id === 'string' && id &&
+      !CURRENCY_ITEMS[id.toLowerCase()] && !POT_ITEMS[id.toLowerCase()] &&
+      inventoryService.resolveInventoryCategory(id) !== 'items';
+    const bundleIds = listing.itemsInBundle.map((entry) => entry?.shortCode);
+    if (bundleIds.every(isPermanent) && bundleIds.every((id) => inventoryService.playerOwnsItem(req.player, id))) {
       return res.status(409).json({ status: 0, data: null, error: 'Item already owned' });
     }
     const totalPrice = unitPrice * quantity;
@@ -63,6 +87,7 @@ exports.purchase = async (req, res) => {
 
     const player = debited;
     const granted = [];
+    const counters = {}; // $inc applied once at the end (currency + pot counters)
     try {
       for (const entry of listing.itemsInBundle) {
         const itemId = entry?.shortCode;
@@ -70,8 +95,16 @@ exports.purchase = async (req, res) => {
         if (typeof itemId !== 'string' || !itemId || !Number.isInteger(itemAmount) || itemAmount < 1) {
           throw new Error('Invalid item in product bundle');
         }
-        // Relics are stored in the dedicated curseRelic field used by this API.
-        if (itemId.startsWith('Relic_')) {
+        const lower = itemId.toLowerCase();
+        if (CURRENCY_ITEMS[lower]) {
+          // e.g. "Amulet" / "Coin" inside a bundle -> player balance, not an inventory item.
+          counters[CURRENCY_ITEMS[lower]] = (counters[CURRENCY_ITEMS[lower]] ?? 0) + itemAmount;
+        } else if (POT_ITEMS[lower]) {
+          // Pots must go to the counters that the pot (gacha) endpoint and /authen read.
+          const key = `inventory.${POT_ITEMS[lower]}`;
+          counters[key] = (counters[key] ?? 0) + itemAmount;
+        } else if (itemId.startsWith('Relic_')) {
+          // Relics are stored in the dedicated curseRelic field used by this API.
           const fresh = await Player.findById(playerId);
           const currentRelics = Array.isArray(fresh?.curseRelic) ? fresh.curseRelic : [];
           const existing = currentRelics.find((r) => r.ShortCode === itemId);
@@ -82,9 +115,13 @@ exports.purchase = async (req, res) => {
             await fresh.save();
           }
         } else {
-          for (let i = 0; i < itemAmount; i++) await inventoryService.addItemToInventory(player, itemId, 1);
+          // One call with the full quantity (was one DB save per unit).
+          await inventoryService.addItemToInventory(player, itemId, itemAmount);
         }
         granted.push({ shortCode: itemId, amount: itemAmount });
+      }
+      if (Object.keys(counters).length > 0) {
+        await Player.updateOne({ _id: playerId }, { $inc: counters });
       }
     } catch (grantError) {
       await Player.updateOne({ _id: playerId }, { $inc: { [currencyField]: totalPrice } });
