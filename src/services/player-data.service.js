@@ -107,9 +107,40 @@ class PlayerDataService {
     return Date.now() - new Date(lastNameUpdate).getTime() >= NAME_COOLDOWN_MS;
   }
 
+  // Fill any keys missing from `stored` using `base`, keeping stored values (arrays kept as-is).
+  _mergeDefaults(stored, base) {
+    if (stored === undefined || stored === null) return structuredClone(base);
+    if (Array.isArray(stored) || typeof stored !== 'object') return stored;
+    if (!base || typeof base !== 'object' || Array.isArray(base)) return stored;
+    const out = { ...stored };
+    for (const [k, v] of Object.entries(base)) {
+      out[k] = k in out ? this._mergeDefaults(out[k], v) : structuredClone(v);
+    }
+    return out;
+  }
+
+  // Authen is the save-data entry point: make sure progression fields exist in the DB
+  // so they are stored per player instead of being re-read from static auth.json.
+  async _ensureProgressionSaved(player) {
+    const base = (await this._getBasePlayerData()).data.player;
+    let changed = false;
+    for (const field of ['playerStat', 'rankData', 'returnPlayerStatus']) {
+      if (player[field] === undefined || player[field] === null) {
+        player[field] = structuredClone(base[field]);
+        player.markModified(field);
+        changed = true;
+      }
+    }
+    if (changed) await player.save();
+    return player;
+  }
+
   async getOrCreatePlayerData(steamId, steamName) {
     const existing = await Player.findOne({ steamId });
-    if (existing) return this._syncDisplayName(existing, steamName);
+    if (existing) {
+      await this._ensureProgressionSaved(existing);
+      return this._syncDisplayName(existing, steamName);
+    }
 
     const template = await this._loadPlayerTemplate();
     const { characterSlot, inventory } = this._assignDefaultSkinsToSlots(
@@ -138,6 +169,7 @@ class PlayerDataService {
     });
 
     await player.save();
+    await this._ensureProgressionSaved(player);
     return player;
   }
 
@@ -266,6 +298,9 @@ class PlayerDataService {
     p.playerRecordHunter   = player.playerRecordHunter    ?? p.playerRecordHunter;
     p.playerRecordSurvivor = player.playerRecordSurvivor  ?? p.playerRecordSurvivor;
     p.curseRelic           = player.curseRelic            ?? p.curseRelic;
+    p.playerStat           = this._mergeDefaults(player.playerStat,         p.playerStat);
+    p.rankData             = this._mergeDefaults(player.rankData,           p.rankData);
+    p.returnPlayerStatus   = this._mergeDefaults(player.returnPlayerStatus, p.returnPlayerStatus);
     p.auth[0].authAt       = new Date().toISOString();
     p.auth[0].extId        = player.steamId;
     p.isOnline             = true;
