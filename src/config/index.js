@@ -8,6 +8,7 @@ if (missing.length > 0) {
 
 const WEAK_SECRETS = ['very-good-key', 'secret', 'changeme', 'c6fcbf11479b44007e6129b'];
 if (WEAK_SECRETS.includes(process.env.JWT_SECRET)) {
+  console.warn('[Config] JWT_SECRET is a well-known weak value — anyone can forge session tokens. Change it.');
 }
 
 module.exports = {

@@ -134,10 +134,13 @@ class GameService {
           ? doc.playerRecord
           : {};
         const key = role === 'hunter' ? 'hunter' : 'survivor';
-        record[key] = record[key] ?? { play: 0, win: 0, lose: 0 };
-        record[key].play += 1;
-        if (isWin) record[key].win += 1;
-        else record[key].lose += 1;
+        // The template record has no play/win/lose keys: `undefined + 1` used to store NaN.
+        const entry = record[key] && typeof record[key] === 'object' ? record[key] : {};
+        entry.play        = (Number(entry.play)        || 0) + 1;
+        entry.win         = (Number(entry.win)         || 0) + (isWin ? 1 : 0);
+        entry.lose        = (Number(entry.lose)        || 0) + (isWin ? 0 : 1);
+        entry.matchplayed = (Number(entry.matchplayed) || 0) + 1;
+        record[key] = entry;
         doc.playerRecord = record;
         doc.markModified('playerRecord');
         latestRecord = record;
@@ -146,6 +149,11 @@ class GameService {
       // Allow a retry if persistence failed after the reward claim was reserved.
       await Match.updateOne({ _id: claimedMatch._id }, { $pull: { rewardedSteamIds: player.steamId } });
       throw saveError;
+    }
+
+    // Once every player has submitted, close the match so it does not stay open forever.
+    if (claimedMatch.rewardedSteamIds.length >= claimedMatch.players.length) {
+      await Match.updateOne({ _id: claimedMatch._id }, { $set: { status: 'closed' } });
     }
 
     await MatchmakingQueue.deleteOne({ steamId: player.steamId, status: 'matched', roomId });

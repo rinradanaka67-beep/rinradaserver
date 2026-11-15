@@ -4,7 +4,18 @@ const Queue = require('@models/matchmaking-queue.model');
 const Lock = require('@models/matchmaking-lock.model');
 const Match = require('@models/match.model');
 
+// Entries that were never cleaned up (client crashed / closed the game) must not block or
+// pollute matchmaking. Polling /queue/status keeps a waiting entry fresh.
+const QUEUE_STALE_MS   = Math.max(1, parseInt(process.env.QUEUE_STALE_MINUTES || '10', 10)) * 60_000;
+const MATCHED_STALE_MS = Math.max(1, parseInt(process.env.MATCH_STALE_MINUTES || '30', 10)) * 60_000;
+
 const ROOM_SIZE = Math.max(2, Math.min(parseInt(process.env.MATCH_ROOM_SIZE || '5', 10), 5));
+
+async function purgeStale() {
+  const now = Date.now();
+  await Queue.deleteMany({ status: 'waiting', updatedAt: { $lt: new Date(now - QUEUE_STALE_MS) } });
+  await Queue.deleteMany({ status: 'matched', updatedAt: { $lt: new Date(now - MATCHED_STALE_MS) } });
+}
 
 async function acquireLock() {
   try {
@@ -19,6 +30,7 @@ async function acquireLock() {
 }
 
 async function formMatches() {
+  await purgeStale();
   const lock = await acquireLock();
   if (!lock) return null;
   try {
@@ -55,6 +67,7 @@ async function formMatches() {
 
 async function join(player) {
   if (!player?.steamId) throw new Error('Authenticated player is required');
+  await purgeStale();
   let entry = await Queue.findOne({ steamId: player.steamId });
   if (entry?.status === 'matched') {
     const match = await Match.findOne({ roomId: entry.roomId }).lean();
@@ -78,11 +91,16 @@ async function join(player) {
 }
 
 async function leave(player) {
-  const result = await Queue.deleteOne({ steamId: player.steamId, status: 'waiting' });
+  // Also clears a "matched" entry: it used to be impossible to leave once matched, so a
+  // player whose match never finished was stuck in that room until the entry was deleted by hand.
+  const result = await Queue.deleteOne({ steamId: player.steamId });
   return { left: result.deletedCount === 1 };
 }
 
 async function status(player) {
+  await purgeStale();
+  // Refresh updatedAt so an actively polling client is never treated as a ghost.
+  await Queue.updateOne({ steamId: player.steamId, status: 'waiting' }, { $set: { roomId: null } });
   const entry = await Queue.findOne({ steamId: player.steamId }).lean();
   if (!entry) return { status: 'not_queued' };
   if (entry.status === 'matched') return { status: 'matched', roomId: entry.roomId, match: await Match.findOne({ roomId: entry.roomId }).lean() };

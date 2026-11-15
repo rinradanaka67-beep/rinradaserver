@@ -30,7 +30,7 @@ exports.checkServerDetect = (req, res) => {
 
 exports.getTreasureProgress = (req, res) => {
   const player = req.player;
-  const progress = (player?.playerRecord && player.playerRecord.treasure) || {
+  const progress = player?.treasureProgress || (player?.playerRecord && player.playerRecord.treasure) || {
     current_step: 0,
     completed: false,
     claimed_rewards: [],

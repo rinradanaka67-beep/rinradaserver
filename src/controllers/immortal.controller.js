@@ -1,6 +1,19 @@
 'use strict';
 
 const Player = require('@models/player.model');
+const staticJson = require('@utils/static-json.util');
+
+// Goal of an activity comes from the immortal catalog; unknown ones default to 1.
+async function lookupGoal(skinShortcode, activityName) {
+  try {
+    const catalog = await staticJson.load('static/player/immortal.json');
+    const skin = (catalog?.data ?? []).find((s) => s.skin_shortcode === skinShortcode);
+    const goal = Number(skin?.activity?.find((a) => a.skin_activity === activityName)?.goal);
+    return Number.isFinite(goal) && goal > 0 ? goal : 1;
+  } catch {
+    return 1;
+  }
+}
 
 async function findPlayerById(playerId) {
 
@@ -81,6 +94,7 @@ exports.updateImmortalPlayer = async (req, res) => {
     }
 
     if (!Array.isArray(player.immortalData)) player.immortalData = [];
+    const goal = await lookupGoal(skin_shortcode, skin_activity);
 
     const skinIdx = player.immortalData.findIndex((s) => s.skin_shortcode === skin_shortcode);
 
@@ -88,13 +102,13 @@ exports.updateImmortalPlayer = async (req, res) => {
       player.immortalData.push({
         skin_shortcode,
         isActive: true,
-        activity: [{ skin_activity, goal: 0, skin_quest_status }],
+        activity: [{ skin_activity, goal, skin_quest_status }],
       });
     } else {
       const skin    = player.immortalData[skinIdx];
       const actIdx  = skin.activity.findIndex((a) => a.skin_activity === skin_activity);
       if (actIdx === -1) {
-        skin.activity.push({ skin_activity, goal: 0, skin_quest_status });
+        skin.activity.push({ skin_activity, goal, skin_quest_status });
       } else {
         skin.activity[actIdx].skin_quest_status = skin_quest_status;
       }

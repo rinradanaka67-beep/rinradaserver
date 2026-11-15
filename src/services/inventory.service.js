@@ -21,6 +21,10 @@ const CHARACTER_SKIN_MAP = Object.freeze({
   Skin_JapanTouristF_D_Default: 'Skin_TouristJap_D_Default',
 });
 
+// Codes that are balances, not inventory items (kept in sync with the store purchase controller).
+const CURRENCY_ITEM_FIELDS = Object.freeze({ coin: 'coin', amethyst: 'amethyst', amulet: 'amulet' });
+const POT_ITEM_FIELDS      = Object.freeze({ default_gacha: 'lootBoxAmount', bullet_gacha: 'bulletAmount' });
+
 const INVENTORY_DEFAULTS = Object.freeze({
   devAccount:      false,
   characters:      [],
@@ -284,9 +288,22 @@ class InventoryService {
     
     
     
+    const lowerId = itemId.toLowerCase();
     await saveWithRetry(player, (doc) => {
       const inventory = doc.inventory;
       this._ensureArrays(inventory);
+
+      if (CURRENCY_ITEM_FIELDS[lowerId]) {
+        const field = CURRENCY_ITEM_FIELDS[lowerId];
+        doc[field] = (Number(doc[field]) || 0) + quantity;
+        return;
+      }
+      if (POT_ITEM_FIELDS[lowerId]) {
+        const field = POT_ITEM_FIELDS[lowerId];
+        inventory[field] = (Number(inventory[field]) || 0) + quantity;
+        doc.markModified('inventory');
+        return;
+      }
 
       if (category === 'items') {
         const idx = inventory.items.indexOf(itemId);

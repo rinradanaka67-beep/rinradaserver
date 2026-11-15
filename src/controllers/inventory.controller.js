@@ -1,5 +1,6 @@
 'use strict';
 
+const config                   = require('@config');
 const inventoryService         = require('@services/inventory.service');
 const { sendError, sendSuccess } = require('@utils/response.util');
 
@@ -9,6 +10,17 @@ function requirePlayer(req, res) {
     return null;
   }
   return req.player;
+}
+
+// addItem / removeItem hand out items for free, so only DEVELOPERS (Steam IDs in .env) may use them.
+function requireDeveloper(req, res) {
+  const player = requirePlayer(req, res);
+  if (!player) return null;
+  if (!(config.developers ?? []).includes(player.steamId)) {
+    sendError(res, 403, 'Developer account required');
+    return null;
+  }
+  return player;
 }
 
 function httpStatusFromError(message = '') {
@@ -79,7 +91,7 @@ exports.editSticker = async (req, res) => {
 
 exports.addItem = async (req, res) => {
   try {
-    const player = requirePlayer(req, res);
+    const player = requireDeveloper(req, res);
     if (!player) return;
     const { itemId, quantity = 1 } = req.body;
     if (!itemId) return sendError(res, 400, 'itemId is required');
@@ -92,7 +104,7 @@ exports.addItem = async (req, res) => {
 
 exports.removeItem = async (req, res) => {
   try {
-    const player = requirePlayer(req, res);
+    const player = requireDeveloper(req, res);
     if (!player) return;
     if (!req.body.itemId) return sendError(res, 400, 'itemId is required');
     const result = await inventoryService.removeItemFromInventory(player, req.body.itemId);

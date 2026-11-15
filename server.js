@@ -9,8 +9,8 @@ const Health = require('@src/Health');
 
 const app = express();
 
-app.use(express.json({ limit: '100mb' }));
-app.use(express.urlencoded({ limit: '100mb', extended: true }));
+app.use(express.json({ limit: '2mb' }));
+app.use(express.urlencoded({ limit: '2mb', extended: true }));
 
 // --- HSHO Log API Routes ---
 
@@ -60,6 +60,14 @@ app.post('/logapi/v1/check/serverdetect', (req, res) => {
 
 app.use('/', routes);
 app.use('/', Health);
+
+// Malformed JSON / oversized bodies used to return Express's HTML error page.
+app.use((err, req, res, next) => {
+  const status = err?.status || err?.statusCode || 500;
+  if (status >= 500) console.error('[Server] Unhandled error:', err);
+  const message = status === 400 ? 'Invalid request body' : status === 413 ? 'Request body too large' : 'Internal server error';
+  return res.status(status >= 400 && status < 600 ? status : 500).json({ status: 0, data: null, error: message });
+});
 
 async function start() {
   try {

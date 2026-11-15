@@ -75,10 +75,8 @@ class AuthService {
       const error = data?.response?.error?.errordesc || 'Steam authentication failed';
       return { success: false, error };
     } catch (err) {
-
-      if (parsedId) {
-        return { success: true, steamId: parsedId };
-      }
+      // A Steam key is configured, so never fall back to trusting the ticket contents
+      // (Steam answers 4xx for bad tickets, which used to land here and be accepted).
       return { success: false, error: 'Could not verify Steam ticket' };
     }
   }
