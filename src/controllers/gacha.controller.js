@@ -35,13 +35,10 @@ function categoryForReward(item) {
   const type = String(item?.type || '').toLowerCase();
   return TYPE_CATEGORY[type] || inventoryService.resolveInventoryCategory(item?.short_code || '');
 }
-function ownsReward(inventory, curseRelic, itemId, category) {
-  if (itemId.startsWith('Relic_') || itemId.startsWith('Curse_')) {
-    const relics = Array.isArray(curseRelic) ? curseRelic : Array.isArray(curseRelic?.curseRelic) ? curseRelic.curseRelic : [];
-    return relics.some((r) => (r?.ShortCode || r?.shortCode) === itemId);
-  }
-  if (category === 'items') return (inventory.items || []).includes(itemId);
-  return Array.isArray(inventory?.[category]) && inventory[category].includes(itemId);
+function ownsReward(inventory, curseRelic, itemId) {
+  // playerOwnsItem checks every inventory category (and relics), so an item bought in the
+  // store under another category is still seen as owned here.
+  return inventoryService.playerOwnsItem({ inventory, curseRelic }, itemId);
 }
 
 exports.OpenLootBox = async (req, res) => {
@@ -89,12 +86,17 @@ exports.OpenLootBox = async (req, res) => {
     let duplicateCoin = 0;
     const ownedThisPull = new Set();
     const additions = new Map();
+    const itemAdds = new Map(); // short_code -> count for inventory.items / itemCounts
     const lootdrops = [];
 
-    const addReward = (itemId, category) => {
+    const addReward = (itemId, category, count = 1) => {
       if (itemId.startsWith('Relic_') || itemId.startsWith('Curse_')) return;
-      if (!additions.has(category)) additions.set(category, new Set());
-      additions.get(category).add(itemId);
+      if (category === 'items') {
+        itemAdds.set(itemId, (itemAdds.get(itemId) || 0) + count);
+      } else {
+        if (!additions.has(category)) additions.set(category, new Set());
+        additions.get(category).add(itemId);
+      }
       ownedThisPull.add(itemId);
     };
 
@@ -106,16 +108,21 @@ exports.OpenLootBox = async (req, res) => {
       if (!selected?.short_code) throw new Error('Invalid item in loot box configuration');
 
       const category = categoryForReward(selected);
-      const duplicate = ownsReward(currentInventory, current.curseRelic, selected.short_code, category) || ownedThisPull.has(selected.short_code);
+      const duplicate = ownsReward(currentInventory, current.curseRelic, selected.short_code) || ownedThisPull.has(selected.short_code);
       if (!duplicate) {
-        addReward(selected.short_code, category);
+        addReward(selected.short_code, category, Number(selected.amount) || 1);
       } else if (selected.duplicate_exchange?.enable) {
         const exchange = selected.duplicate_exchange;
+        const exchangeAmount = Number(exchange.amount) || 0;
         if (exchange.type === 'currency' && exchange.short_code === 'coin') {
-          duplicateCoin += Number(exchange.amount) || 0;
+          duplicateCoin += exchangeAmount;
+        } else if (exchange.type === 'currency' && exchange.short_code) {
+          // Other currencies (the Bullet Pot pays "token") are kept as a counted item so
+          // /authen returns the balance; before, only one "token" was ever granted.
+          if (exchangeAmount > 0) itemAdds.set(exchange.short_code, (itemAdds.get(exchange.short_code) || 0) + exchangeAmount);
         } else if (exchange.short_code) {
           const exchangeCategory = inventoryService.resolveInventoryCategory(exchange.short_code);
-          if (!ownsReward(currentInventory, current.curseRelic, exchange.short_code, exchangeCategory)) {
+          if (!ownsReward(currentInventory, current.curseRelic, exchange.short_code)) {
             addReward(exchange.short_code, exchangeCategory);
           }
         }
@@ -138,6 +145,19 @@ exports.OpenLootBox = async (req, res) => {
       if (!ids.size) continue;
       update.$addToSet ||= {};
       update.$addToSet[`inventory.${category}`] = { $each: [...ids] };
+    }
+    if (itemAdds.size) {
+      const items = Array.isArray(currentInventory.items) ? [...currentInventory.items] : [];
+      const counts = Array.isArray(currentInventory.itemCounts) ? [...currentInventory.itemCounts] : [];
+      while (counts.length < items.length) counts.push(1); // repair arrays that drifted apart
+      counts.length = items.length;
+      for (const [code, n] of itemAdds) {
+        const idx = items.indexOf(code);
+        if (idx > -1) counts[idx] = (Number(counts[idx]) || 0) + n;
+        else { items.push(code); counts.push(n); }
+      }
+      update.$set['inventory.items'] = items;
+      update.$set['inventory.itemCounts'] = counts;
     }
     const saved = await Player.findOneAndUpdate(
       { _id: playerId, [`inventory.${config.potField}`]: { $gte: parsedAmount } },
